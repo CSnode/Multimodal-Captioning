@@ -33,7 +33,7 @@ Though you can run the code on CPU, we highly recommend you to equip a GPU card.
 	export CUDA_VISIBLE_DEVICES=""
 
 ## Caption model
-We have four differt model to generate captions. For different model, please look at CNIC, CNIC-H, CNIC-C, CNIC-HC directory, training and testing command for eash caption model is same. For simplicity, we use CNIC for example:
+We have five different model to generate captions. For different model, please look at CNIC, CNIC-H, CNIC-C, CNIC-X, CNIC-HC directory, training and testing command for eash caption model is the same. For simplicity, we use CNIC for example:
 
 	cd CNIC
 
