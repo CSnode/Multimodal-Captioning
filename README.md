@@ -77,3 +77,8 @@ For metrics evaluation process:
 
 	python metrics.py --checkpoint_path="models/train/model.ckpt-xxx" --vocab_file="data/word_counts.txt" --image_path="../Flickr8k_Dataset/Flicker8k_Dataset" --temp_path="./" --test_json_path="./data/captions_test_c.json" --keyword_pickle_file="data/features.pkl"
    
+## Ensemble metrics
+For ensemble, you need to complete CNIC, CNIC-H, CNIC-C, CNIC-HC model training, and use ensemble.py:
+
+	cd ../Ensemble
+	python ensemble.py --test_json_path="./Data/captions_test_c.json"
